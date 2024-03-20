@@ -21,8 +21,8 @@ main{
 }
 
 .container{
-    width:500px; /*altezze fisse d arimuovere */
-    height:650px; /*altezze fisse d arimuovere */
+    width:30%;
+    height:80%;
     border-radius:10px;
     background-color: var(--grey-body);
 }
@@ -46,6 +46,42 @@ main{
     color: white;
     font-size: 3rem;
 }
+
+.keyboard-container{
+    width:95%;
+    height: 95%;
+}
+
+.btn-number_container{
+    width:70%;
+    height: 95%;
+}
+
+.btn{
+    margin: 2px;
+    border: 0px solid;
+    border-radius: 3px;
+}
+
+.number{
+    width:32%;
+    height:23%;
+    font-size:20px;
+    background-color: var(--grey-button);
+}
+
+.btn-operation{
+    width:30%;
+    height: 95%;
+}
+
+.operation{
+    width:96%;
+    height:18%;
+    font-size:20px;
+    background-color: var(--celeste);
+}
+
 
 
 
@@ -79,6 +115,9 @@ main{
 .row{
     flex-direction: row;
 }
+.row-reverse{
+    flex-direction: row-reverse;
+}
 
 .j-center{
     justify-content: center;
@@ -86,6 +125,26 @@ main{
 
 .a-center{
     align-items: center;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.f-nowrap{
+    flex-wrap: nowrap;
+}
+
+.f-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.s-evenly{
+    justify-content: space-evenly;
+}
+
+.item{
+    flex-grow:2;
 }
 
 
