@@ -22,7 +22,7 @@ main{
 
 .container{
     
-    width:500px;
+    width:400px;
     height:80%;
     border-radius:10px;
     background-color: var(--grey-body);
@@ -59,8 +59,8 @@ main{
 }
 
 .btn-number_container{
-    width:70%;
-    height: 95%;
+    width:31%;
+    height: 22%;
 }
 
 .btn{
