@@ -12,7 +12,7 @@
   }
 
 body{
-    font-family: "Arial", sans-serif;
+    font-family: "Seven-Segment", sans-serif;
     font-size: 16px;
 }
 
@@ -59,8 +59,8 @@ main{
 }
 
 .btn-number_container{
-    width:31%;
-    height: 22%;
+    width:70%;
+    height: 95%;
 }
 
 .btn{
@@ -70,7 +70,7 @@ main{
 }
 
 .number{
-    width:32%;
+    width:31%;
     height:23%;
     font-size:20px;
     background-color: var(--grey-button);
@@ -153,3 +153,16 @@ main{
 .item{
     flex-grow:2;
 }
+
+
+
+
+
+/* classi per prova */
+.square{
+    width:20px;
+    height:20px;
+    background-color: black;
+    border: 1px solid white;
+}
+/* classi per prova */
